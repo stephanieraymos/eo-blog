@@ -1,6 +1,6 @@
 html {
     font-family: 'Oswald', sans-serif;
-    color: purple;
+    color: black;
 }
 
 .background {
@@ -25,4 +25,15 @@ li {
 
 ul {
     padding: 0px;
+}
+
+.pic-text {
+    
+}
+
+.oil-img {
+    background: url(../img/oil-drip.jpg) no-repeat center center fixed;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
 }
