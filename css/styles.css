@@ -61,4 +61,16 @@ a {
     header li {
         display: inline-block;
     }
+
+    header h1, header nav {
+        flex: 1;
+    }
+
+    header h1 {
+        text-align: left;
+    }
+
+    header nav {
+        text-align: right;
+    }
 }
