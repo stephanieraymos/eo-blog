@@ -4,7 +4,7 @@ html {
 }
 
 .background {
-    background: gray;
+    background: rgb(212, 194, 194);
 }
 
 header {
@@ -28,7 +28,15 @@ ul {
 }
 
 .pic-text {
-    
+    text-align: center;
+    font-size: 2em;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: 1A1A1A;
 }
 
 .oil-img {
