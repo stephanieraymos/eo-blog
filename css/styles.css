@@ -4,7 +4,7 @@ html {
 }
 
 .background {
-    background: rgb(212, 194, 194);
+    background: rgb(212, 194, 194, .65);
 }
 
 header {
@@ -36,7 +36,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: 1A1A1A;
+    color: #1A1A1A;
 }
 
 .oil-img {
@@ -44,4 +44,6 @@ a {
     min-height: 100vh;
     background-size: cover;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
