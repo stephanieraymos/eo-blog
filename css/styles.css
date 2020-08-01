@@ -6,3 +6,19 @@ html {
 .background {
     background: gray;
 }
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    margin: 0;
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 10px
+}
