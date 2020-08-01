@@ -47,3 +47,18 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width: 1000px) {
+    body {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    header li {
+        display: inline-block;
+    }
+}
