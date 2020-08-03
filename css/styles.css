@@ -44,6 +44,19 @@ a {
     flex-direction: column;
 }
 
+article, .sidebar-widget {
+    padding: 15px;
+    margin: 15px;
+}
+
+article > header {
+    background-color: #d8d8d8;
+}
+
+img {
+    width: 90%;
+}
+
 .oil-img {
     background: url(../img/oil-drip.jpg) no-repeat center center fixed;
     min-height: 100vh;
@@ -84,6 +97,6 @@ a {
     align-items: center;
     justify-content: center;
 }
-.img-size {
+/* .img-size {
     width: 800px;
-}
+} */
