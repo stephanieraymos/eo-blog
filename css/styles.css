@@ -54,9 +54,12 @@ article > header {
 }
 
 img {
-    width: 90%;
+    width: 100%;
 }
 
+li {
+    margin: 0 5px
+}
 .oil-img {
     background: url(../img/oil-drip.jpg) no-repeat center center fixed;
     min-height: 100vh;
@@ -64,6 +67,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a:hover {
+    color: purple;
+}
+
+td:nth-child(2) {
+    padding-left: px;
 }
 
 @media (min-width: 1000px) {
@@ -93,10 +104,19 @@ img {
     }
 }
 
-.center {
-    align-items: center;
-    justify-content: center;
+.wrapper {
+    flex-direction: row;
 }
-/* .img-size {
-    width: 800px;
-} */
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    margin-left: 15px;
+}
+
+article > header {
+    justify-content: space-around;
+}
