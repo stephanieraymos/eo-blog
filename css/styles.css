@@ -54,7 +54,7 @@ article > header {
 }
 
 img {
-    width: 90%;
+    width: 100%;
 }
 
 .oil-img {
@@ -100,3 +100,25 @@ img {
 /* .img-size {
     width: 800px;
 } */
+
+/* blog */
+.wrapper {
+    flex-direction: row;
+}
+
+main { 
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    margin-left: 15px;
+}
+
+article > header {
+    justify-content: space-around;
+}
+
+.social {
+    justify-content: space-evenly;
+}
